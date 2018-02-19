@@ -18,7 +18,7 @@ done
 The compilation of net-snmp is as default as it can get. We disable IPv6 and SNMP V1 but other than that we dont any fancy options.
 
 ```shell
-./configure --prefix=/usr/local --disable-ipv6 --disable-snmpv1 --with-defaults
+./configure --prefix=/usr/local --disable-ipv6 --with-defaults
 ```
 
 # Cleanup
